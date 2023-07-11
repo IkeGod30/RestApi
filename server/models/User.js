@@ -88,7 +88,7 @@ userSchema.statics.findByToken = function (token, cb) {
     })
 }
 
-////// ###### Below is original Code ######
+////// ###### Below is original Code ########
 
 // jwt.verify(token,'secret',function(err, decode){
 //     user.findOne({"_id":decode, "token":token}, function(err, user){
